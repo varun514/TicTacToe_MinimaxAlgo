@@ -33,6 +33,14 @@ class TicTacToe
 
 		cout << "     |     |     " << endl << endl;
 	}
+	/*********************************************
+		This function is to clear previous screen boards
+		and show only new board with AI Mark
+	**********************************************/
+	void clearScreenFeature(){
+		system("clear");// to run this command in windows, replace the clear with CLS//
+		cout<<"AI marked the position: "<<index<<endl;
+	}
 
 /*********************************************
 
@@ -147,6 +155,7 @@ class TicTacToe
 			}
 		}
 		mark(0,index);
+		clearScreenFeature();
 		board();
 		return checkwin();
 	}

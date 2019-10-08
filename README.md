@@ -7,4 +7,6 @@ Here,It is a basic implementation of Minimax algorithm in c++ leading to an AI w
 Till Now,I had implemented it in serial manner so it might be a little bit of predictive for somme of the moves.
 Because it doesn't choose the first Max valued move which looks like repeating same moves.
 
+NOTE : This code might not work in windows OS , so change line 41 from *system("clear")* to *system("CLS")*
+
 But wait,Try to win.
